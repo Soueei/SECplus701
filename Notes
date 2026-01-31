@@ -1,1 +1,24 @@
-https://coda.io/d/RECAP-RECONFIGURE-DAY-1-CISCO-DEVICES_dkhSOFbWFZ7/RECAP-RECONFIGURE-DAY-1-CISCO-DEVICES_su5ATNv-#_lu40TwDb
+!DAY 1 REFRESHER
+!https://coda.io/d/RECAP-RECONFIGURE-DAY-1-CISCO-DEVICES_dkhSOFbWFZ7/RECAP-RECONFIGURE-DAY-1-CISCO-DEVICES_su5ATNv-#_lu40TwDb
+
+!@secure crt, serial, usb, baud rate 9600, uncheck xon/xoff, connect
+
+!@coretaas, ctrl + c, en(enable)
+
+!line 100 - 126 = DHCP
+!line 130 - 168 = VLANS
+
+!NEXT LESSON DAY 2
+
+!@linux (elastic search)
+root
+C1sc0123
+
+!@edge browser
+http://208.8.8.133/otrs/index.pl
+root@localhost
+C1sc0123
+
+http://208.8.8.133/otrs/customer.pl
+user1
+C1sc0123
